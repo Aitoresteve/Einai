@@ -1,0 +1,5 @@
+.content {
+    width: 100%;
+    padding-top: var(--spacer-m);
+    padding-bottom: var(--spacer-m);
+}

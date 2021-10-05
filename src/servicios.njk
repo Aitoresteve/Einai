@@ -1,0 +1,57 @@
+---
+layout: layouts/full.njk
+title: EINIAI-Servicios
+eleventyNavigation:
+  key: servicios
+  title: Servicios
+  order: 2
+---
+
+<div class="grid caja-servicio">
+   
+       <div class="col-5 col-md-5 col-sm-8 servicios-text">
+           <h1 class="servicio">DISEÑOS, ARQUITECTURA Y DECORACIÓN:</h1>
+       <p>Cuéntanos tus ideas y la llevaremos a cabo.   </p>
+       </div>
+       
+   <div class="col-7 col-md-5 col-sm-8 fotos-servicios-der">    
+         {% set elemento = {"imagen": "06.jpg"} %}
+         {% include 'components/inicio.njk' %}
+   </div>
+</div>
+
+<div class="grid caja-servicio">
+    <div class="col-7 col-md-5 col-sm-8 fotos-servicios-izq">
+      {% set elemento = {"imagen": "13.jpg"} %}
+      {% include 'components/inicio.njk' %}
+    </div>
+
+    <div class="col-5 col-md-5 col-sm-8 servicios-text-der">
+        <h1 class="servicio">PROYECTOS Y REFORMAS:</h1>
+    <p>Le daremos forma a tus proyectos, al igual que a los rincones que quieras cambiar en tu hogar.</p>
+    </div>
+</div>
+
+<div class="grid caja-servicio">
+    <div class="col-5 col-md-5 col-sm-8 servicios-text">
+        <h1 class="servicio">INFOGRAFÍA 3D:</h1>
+    <p>Descubre como tus ideas se hacen realidad. Te enseñamos tu proyecto terminado antes de empezarlo.</p>
+    </div>
+   
+    <div class="col-7 col-md-5 col-sm-8 fotos-servicios-der">
+      {% set elemento = {"imagen": "07.png"} %}
+      {% include 'components/inicio.njk' %}
+    </div>
+</div>
+
+<div class="grid caja-servicio">
+    <div class="col-7 col-md-5 col-sm-8 fotos-servicios-izq">
+      {% set elemento = {"imagen": "15.jpg"} %}
+      {% include 'components/inicio.njk' %}
+    </div>
+
+    <div class="col-5 col-md-5 col-sm-8 servicios-text-der">
+        <h1 class="servicio">CONTRACT:</h1>
+    <p>Sabemos la importancia del interiorismo en un negocio. Nos encargamos de conseguir el local de tus sueños y el de tus clientes.</p>
+    </div>
+</div>

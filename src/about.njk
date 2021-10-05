@@ -1,0 +1,28 @@
+---
+layout: layouts/base.njk
+title: EINIAI-¿Quien somos?
+eleventyNavigation:
+  key: about
+  title: ¿Quién somos?
+  order: 1
+---
+
+<div class="col-5 col-md-5 col-sm-8">
+    <div class="iniciotext">
+    <p>Eïnai Interioristas es una empresa compuesta por un equipo creativo, innovador y profesional, con más de 15 años de experiencia en el mundo del interiorismo. Ofrecemos una extensa gama de servicios y materiales de primera calidad que convertirán en realidad todas las ideas que nuestros clientes tienen para hacer de su casa o su negocio, el proyecto de sus sueños.</p>
+        <br>
+    <p>Nuestro enfoque principal es "ESCUCHAR AL CLIENTE" para poder cubrir sus necesidades, ya que tenemos una extensa oferta de mobiliario, dotado con los últimos avances en tecnología industrial y utilizando los mejores componentes europeos. Decoración, Interiorismo y Reformas Integrales.</p>
+        <br>
+    <h1 class="tituloinicio">OFRECEMOS</h1>
+       <p><a class="puntosinicio">•	VIABILIDAD:</a> Ajustamos el proyecto a cualquier bolsillo.</p>
+       <p><a class="puntosinicio">•	COMPROMISO:</a> Nos comprometemos 100% a cumplir los plazos pactados.</p>
+       <p><a class="puntosinicio">•	CALIDAD:</a> Utilizamos los materiales con mayor calidad e innovación del mercado.</p>
+       <p><a class="puntosinicio">•	PROFESIONALIDAD:</a> Contamos con los mejores especialistas y profesionales.</p>
+       <p><a class="puntosinicio">•	PRESUPUESTO SIN COMPROMISO:</a> Presupuestamos tu reforma sin ningún tipo de compromiso.</p>
+    </div>
+</div>
+<div class="col-7 col-md-5 col-sm-8 projectfotos">
+      {% for elemento in projects %}
+      {% include 'components/project.njk' %}
+      {% endfor %}
+    </div>

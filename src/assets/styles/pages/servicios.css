@@ -1,0 +1,101 @@
+.fotos-servicios{
+    width: 100%;
+    height: min-content;
+}
+.fotos-servicios-der{
+    width: 100%;
+    grid-column-end: -1;
+    height: min-content;
+}
+.fotos-servicios-izq{
+    width: 100%;
+    height: min-content;
+}
+.caja-servicio{    
+    background-color: var(--blau);
+    margin-bottom: var(--spacer-xl);
+    margin-top: var(--spacer-2xl);
+    height: min-content;
+    align-content: center;
+}
+.servicio{
+    font-size: var(--text-titlelit);
+    font-family: var(--serif);
+    font-style: oblique;
+    line-height: 1.2;
+    font-weight: 300;
+    color: var(--blanc);
+    height: min-content;
+}
+.servicios-text{
+    color: var(--blanc);
+    padding-left: var(--spacer-xl);
+    padding-right: var(--spacer-xl);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: var(--text-base);
+    font-family: var(--sans);
+    height: min-content;
+    line-height: 1;
+}
+.servicios-text-der{
+    color: var(--blanc);
+    grid-column-end: -1;
+    padding-left: var(--spacer-xl);
+    padding-right: var(--spacer-xl);
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+    font-size: var(--text-base);
+    font-family: var(--sans);
+    height: min-content;
+    line-height: 1;
+}
+
+@media(max-width:900){
+    .servicios-text{
+        padding-left: var(--spacer-l);
+        padding-right: var(--spacer-l);
+        padding-top: var(--spacer-xl);
+        padding-bottom: var(--spacer-xl);
+    }
+}
+@media(max-width:900){
+    .servicios-text-der{
+        padding-left: var(--spacer-l);
+        padding-right: var(--spacer-l);
+        padding-top: var(--spacer-xl);
+        padding-bottom: var(--spacer-xl);
+    }
+}
+@media(max-width:700){
+    .servicios-text{
+        padding-left: var(--spacer-m);
+        padding-right: var(--spacer-m);
+        padding-top: var(--spacer-l);
+    /*    padding-bottom: var(--spacer-l);*/
+    }
+}
+@media(max-width:700){
+    .servicios-text-der{
+        padding-left: var(--spacer-m);
+        padding-right: var(--spacer-m);
+        padding-top: var(--spacer-l);
+        padding-bottom: var(--spacer-l);
+    }
+}
+@media(max-width:500){
+    .servicios-text{
+        padding-left: var(--spacer-s);
+        padding-right: var(--spacer-s);
+        padding-top: var(--spacer-m);
+        padding-bottom: var(--spacer-m);
+    }
+}
+@media(max-width:500){
+    .servicios-text-der{
+        padding-left: var(--spacer-s);
+        padding-right: var(--spacer-s);
+        padding-top: var(--spacer-m);
+        padding-bottom: var(--spacer-m);
+    }
+}

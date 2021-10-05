@@ -1,0 +1,68 @@
+.contacto-titulo{
+    margin-top: var(--spacer-2xl);
+    padding-top: 10vh;
+    font-family: var(--serif);
+    font-size: var(--text-title);
+    font-style: oblique;
+}
+.contacto-titulo .text-headline{
+    line-height: 1;
+    font-weight: 300;
+    color: var(--blau2);
+}
+.contacto-form{
+    margin-top: var(--spacer-2xl);
+    margin-bottom: var(--spacer-2xl);
+    padding-top: 10vh;
+    padding-right: var(--spacer-2xl);
+    font-family: var(--sans);
+    color: var(--blau);
+    font-size: var(--text-subheader);
+    line-height: 1.8;
+}
+.contacto-form input{
+    font-family: var(--sans);
+    font-size: var(--text-note);
+    letter-spacing: 0.05em;
+    line-height: 1.5;
+    vertical-align: 0.25em;
+    color: var(--blau2);
+    background-color: transparent;
+    border: 0;
+    border-bottom: 2px solid;
+    text-transform: uppercase;
+}
+.contacto-form input::placeholder{
+    color: var(--blau2);
+}
+.contacto-enviar{
+    border: 0;
+    font-family: var(--serif);
+    font-size: var(--tect-title);
+    text-transform: uppercase;
+    letter-spacing: 0.25em;
+    line-height: 1;
+    padding: 0;
+    color: var(--blau2);
+    background-color: transparent;
+    opacity: 0.8;
+    font-weight: 400;
+}
+.contacto-enviar:hover{
+    color: var(--blau);
+    cursor: pointer;
+}
+@media (max-width: 900px){
+    .contact-form{
+        font-size: var(--font-base);
+    }
+}
+@media (max-width: 500px){
+    .contact-titulo{
+        margin-top: var(--spacer-xl);
+    }
+    .contact-form{
+        margin-top: var(--spacer-m);
+        margin-bottom: var(--spacer-l);
+    }
+}

@@ -1,0 +1,24 @@
+---
+layout: layouts/base.njk
+title: EINIAI-Contacto
+eleventyNavigation:
+  key: contacto
+  title: Contacto
+  order: 3
+---
+
+<div class="col-5 col-md-4 col-sm-3 col-sx-6 contacto-titulo">
+  <h1 class="text-headline">CONTACTO</h1>
+ </div>
+<form class="col-7 col-md-6 col-sm-5 col-sx-6 contacto-form">
+    ¡Hola!<br>
+    <llabel for="name">Me llamo</llabel>
+    <input id="name" type="text" placeholder="TU NOMBRE">
+    y <llabel for="project">tengo un proyecto de</llabel>
+    <input id="project" type="text" placeholder="TU PROYECTO">
+    en el que me gustaría que me ayudaras.
+    <llabel for="email">Me puedes escribir a</llabel>
+    <input required id="email" type="text" placeholder="TU EMAIL">
+    ¡Gracias!<br>
+    <button type="submit" class="contacto-enviar">ENVIAR</button>
+</form>

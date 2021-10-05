@@ -1,0 +1,27 @@
+<div class="header">
+
+  <div class="container">
+      <a href="/" class="header-logo">
+          <img src="/assets/images/Logo.png" alt="">
+      </a>
+      <button class="header-nav-icon">
+          <img src="/assets/images/Nav.png" alt="">
+      </button>
+      <button class="header-nav-icon2">
+          <img src="/assets/images/Nav2.png" alt="">
+      </button>
+
+    {% set navPages = collections.all | eleventyNavigation %}
+    <div class="nav">
+      {%- for elemento in navPages %}
+        <a href="{{ elemento.url | url }}"
+          {% if elemento.url == page.url %} class="active"{% endif %}
+        >
+          {{ elemento.title }}
+        </a>
+      {%- endfor %}
+    </div>
+
+  </div>
+
+</div>
