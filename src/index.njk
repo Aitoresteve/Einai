@@ -1,12 +1,22 @@
 ---
-layout: layouts/base.njk
+layout: layouts/full.njk
 title: EINIAI
 ---
-<div class="col-12 gifinicio">
- <img src="assets/images/Logo_Gif.gif" alt="">
+
+<div class="body foto-portada">
+ <img class="foto-inicio" src="assets/images/portada_03.png" alt="">
 </div>
 
-<div class="col-5 col-md-5 col-sm-8">
+<!--<div class="autoplay">
+</div>-->
+<div class="body container grid">
+<div class="titulo col-6 col-md-6 col-sm">
+  <a>Creamos ilusiónes</a>
+</div>
+
+<!-- Spanish -->
+
+  <div class="col-6 col-md-10 col-sm-8 col-xs-6 col-xxs-4">
     <div class="iniciotext">
     <p>Eïnai Interioristas es una empresa compuesta por un equipo creativo, innovador y profesional, con más de 15 años de experiencia en el mundo del interiorismo. Ofrecemos una extensa gama de servicios y materiales de primera calidad que convertirán en realidad todas las ideas que nuestros clientes tienen para hacer de su casa o su negocio, el proyecto de sus sueños.</p>
         <br>
@@ -19,9 +29,21 @@ title: EINIAI
        <p><a class="puntosinicio">•	PROFESIONALIDAD:</a> Contamos con los mejores especialistas y profesionales.</p>
        <p><a class="puntosinicio">•	PRESUPUESTO SIN COMPROMISO:</a> Presupuestamos tu reforma sin ningún tipo de compromiso.</p>
     </div>
-</div>
-<div class="col-7 col-md-5 col-sm-8 projectfotos">
-      {% for elemento in projects %}
-      {% include 'components/project.njk' %}
-      {% endfor %}
+  </div>
+    <!-- <div class="vertical-line"></div> -->
+<!-- English -->
+  <div class="col-6 col-md-10 col-sm-8 col-xs-6 col-xxs-4">
+    <div class="iniciotext">
+    <p>Eïnai Interioristas is a company made up of a creative, innovative and professional team with more than 15 years of experience in the world of interior design. We offer a wide range of services and top quality materials that will turn into reality all the ideas that our clients have to make their home or business, the project of their dreams.</p>
+        <br>
+    <p>Our main focus is "LISTENING TO THE CUSTOMER" in order to meet their needs, as we have an extensive range of furniture, equipped with the latest advances in industrial technology and using the best European components. Decoration, Interior Design and Integral Reforms.</p>
+        <br>
+    <h1 class="tituloinicio">WE OFFER</h1>
+       <p><a class="puntosinicio">•	VIABILITY:</a> We adjust the project to any budget.</p>
+       <p><a class="puntosinicio">•	COMMITMENT:</a> We are 100% committed to meeting the agreed deadlines.</p>
+       <p><a class="puntosinicio">•	QUALITY:</a> We use the highest quality and most innovative materials on the market.</p>
+       <p><a class="puntosinicio">•	PROFESSIONALISM:</a> We have the best specialists and professionals.</p>
+       <p><a class="puntosinicio">•	NON-BINDING QUOTATION:</a> We will give you an estimate for your refurbishment without obligation.</p>
     </div>
+  </div>
+</div>
