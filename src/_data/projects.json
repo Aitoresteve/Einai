@@ -1,48 +1,171 @@
 [
   
   {
-    "imagen": "01.jpg"
+    "imagen": "BAÑO_01.jpg"
   },
   {
-    "imagen": "02.jpg"
+    "imagen": "BAÑO_02.jpg"
   },
     {
-    "imagen": "03.jpg"
+    "imagen": "BAÑO_03.jpg"
   },
   {
-    "imagen": "04.jpg"
+    "imagen": "BAÑO_04.jpg"
   },
     {
-    "imagen": "05.jpg"
+    "imagen": "COCINA_01.jpg"
   },
   {
-    "imagen": "06.jpg"
+    "imagen": "COCINA_02.jpg"
   },
     {
-    "imagen": "07.png"
+    "imagen": "COCINA_03.jpg"
   },
   {
-    "imagen": "08.jpg"
+    "imagen": "COCINA_04.jpg"
   },
     {
-    "imagen": "09.jpg"
+    "imagen": "COCINA_05.jpg"
   },
   {
-    "imagen": "10.jpg"
+    "imagen": "COCINA_07.png"
   },
     {
-    "imagen": "11.jpg"
+    "imagen": "COCINA_08.png"
   },
   {
-    "imagen": "12.jpg"
+    "imagen": "COCINA_09.png"
   },
     {
-    "imagen": "13.jpg"
+    "imagen": "COCINA_10.jpg"
   },
   {
-    "imagen": "14.jpg"
+    "imagen": "COCINA_11.jpg"
   },
     {
-    "imagen": "15.jpg"
-  }    
+    "imagen": "COCINA_12.jpg"
+  },
+    {
+    "imagen": "COCINA_13.jpg"
+  },
+    {
+    "imagen": "COCINA_14.jpg"
+  },
+    {
+    "imagen": "COCINA_15.jpg"
+  },
+    {
+    "imagen": "COCINA_16.jpg"
+  },
+    {
+    "imagen": "COCINA_17.jpg"
+  },
+    {
+    "imagen": "EXTERIOR_01.jpg"
+  },
+  {
+    "imagen": "EXTERIOR_02.jpg"
+  },
+    {
+    "imagen": "EXTERIOR_03.jpg"
+  },
+  {
+    "imagen": "EXTERIOR_04.jpg"
+  },
+    {
+    "imagen": "EXTERIOR_05.jpg"
+  },
+  {
+    "imagen": "EXTERIOR_07.jpg"
+  },
+    {
+    "imagen": "EXTERIOR_08.jpg"
+  },
+    {
+    "imagen": "INFOGRAFIA_01.jpg"
+  },
+  {
+    "imagen": "INFOGRAFIA_02.jpg"
+  },
+    {
+    "imagen": "INFOGRAFIA_03.png"
+  },
+  {
+    "imagen": "INFOGRAFIA_04.png"
+  },
+    {
+    "imagen": "INTERIORISMO_01.png"
+  },
+  {
+    "imagen": "INTERIORISMO_02.png"
+  },
+    {
+    "imagen": "INTERIORISMO_03.png"
+  },
+  {
+    "imagen": "INTERIORISMO_04.png"
+  },
+    {
+    "imagen": "INTERIORISMO_05.png"
+  },
+  {
+    "imagen": "INTERIORISMO_07.png"
+  },
+    {
+    "imagen": "INTERIORISMO_08.png"
+  },
+  {
+    "imagen": "INTERIORISMO_09.png"
+  },
+    {
+    "imagen": "INTERIORISMO_10.png"
+  },
+  {
+    "imagen": "INTERIORISMO_11.jpeg"
+  },
+    {
+    "imagen": "INTERIORISMO_12.jpeg"
+  },
+    {
+    "imagen": "INTERIORISMO_13.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_14.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_15.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_16.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_17.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_18.jpg"
+  },
+  {
+    "imagen": "INTERIORISMO_19.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_20.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_21.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_22.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_23.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_24.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_25.jpg"
+  },
+    {
+    "imagen": "INTERIORISMO_26.jpg"
+  }
 ]
