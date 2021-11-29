@@ -1,5 +1,5 @@
 .header {
-  background-color: var(--blau);
+  background-color: var(--kraft2);
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
   position: fixed;
@@ -18,35 +18,4 @@
    width: 170px;
     position: relative;
     z-index: var(--z-index-logo);
-}
-.header-nav-icon{
-    width: 30px;
-    margin-left: auto;
-    position: relative;
-    z-index: var(--z-index-navicon);
-    border: 0;
-    background-color: transparent;
-    padding: 0;
-}
-.header-nav-icon2{
-    width: 30px;
-    margin-left: auto;
-    position: relative;
-    z-index: var(--z-index-navicon);
-    border: 0;
-    background-color: transparent;
-    padding: 0;
-    display: none;
-}
-.header-nav-icon:hover{
-    cursor: pointer;
-}
-.header-nav-icon2:hover{
-    cursor: pointer;
-}
-.nav-activo .header-nav-icon{
-    display: none;
-}
-.nav-activo .header-nav-icon2{
-    display: flex;
 }
