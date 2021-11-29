@@ -1,15 +1,27 @@
+.foto-contacto{
+    position: absolute;
+    margin-top: var(--spacer-2xl);
+    object-fit:contain;
+    width: 50%;
+    height: 50%;
+}
 .contacto-titulo{
+    position: absolute;
+    line-height: 1;
+    font-weight: 300;
+    color: var(--blau2);
     margin-top: var(--spacer-2xl);
     padding-top: 10vh;
     font-family: var(--serif);
     font-size: var(--text-title);
     font-style: oblique;
 }
-.contacto-titulo .text-headline{
+/*.contacto-titulo .text-headline{
+    position: absolute;
     line-height: 1;
     font-weight: 300;
     color: var(--blau2);
-}
+}*/
 .contacto-form{
     margin-top: var(--spacer-2xl);
     margin-bottom: var(--spacer-2xl);
@@ -56,13 +68,24 @@
     .contact-form{
         font-size: var(--font-base);
     }
+    .foto-contacto{
+        margin-left: var(--spacer-m);
+        width: 25%;
+        height: 25%;
+    }
 }
 @media (max-width: 500px){
+    .foto-contacto{
+        margin-left: var(--spacer-m);
+        width: 25%;
+        height: 25%;
+    }
     .contact-titulo{
         margin-top: var(--spacer-xl);
     }
     .contact-form{
         margin-top: var(--spacer-m);
         margin-bottom: var(--spacer-l);
+        margin-left: var(--spacer-s);
     }
 }
