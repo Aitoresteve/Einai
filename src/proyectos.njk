@@ -1,0 +1,12 @@
+---
+layout: layouts/base.njk
+title: EINIAI-Proyectos
+eleventyNavigation:
+  key: proyectos
+  title: Proyectos
+  order: 1
+---
+
+      {% for elemento in projects %}
+      {% include 'components/project.njk' %}
+      {% endfor %}
