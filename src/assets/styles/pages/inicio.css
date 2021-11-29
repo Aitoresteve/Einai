@@ -1,10 +1,32 @@
-.gifinicio{
+.slide{
+    
+}
+.titulo{
+    margin-top: var(--spacer-xl);
+    color: var(--blau);
+    font-family: var(--serif);
+    font-size: var(--text-headline);
+    font-style: oblique;
+    height: 100%;
+    grid-column-end: -4;
+}
+.vertical-line{
+    width: 2px; 
+    background-color: var(--blau); 
+    height: 500px;
+    float: left;
+    position:absolute;
+    margin-left: 700px;
+    margin-top: 50px;
+    /*display:inline-block;*/
+    }
+.foto-portada{
+    height: 750px;
+}
+.foto-inicio{
+    height: 750px;
     width: 100%;
-    padding-top: ;
-    padding-bottom: ;
-    margin-bottom: ;
-    justify-content: center;
-    align-content: center;
+    object-fit: cover;
 }
 
 .tituloinicio{
@@ -24,8 +46,8 @@
 
 .iniciotext {
     line-height: 1.2;
-    margin-top: var(--spacer-2xl);
-    padding-top: 17vh;
+    margin-top: var(--spacer-xl);
+    padding-top: ;
     padding-bottom: var(--spacer-m);
     padding-left: var(--spacer-xl);
     padding-right: var(--spacer-l);
@@ -40,6 +62,14 @@
     
 }
 @media(max-width:900){
+    .foto-portada{
+    height: 500px;
+}
+    .foto-inicio{
+    height: 500px;
+    width: 75%;
+    object-fit: cover;
+}
     .iniciotext{
        padding-top: var(--spacer-l);
        padding-bottom: var(--spacer-s);
@@ -51,13 +81,60 @@
        font-weight: 400;
        color: var(--blau);
     }
+    .vertical-line{
+        margin-left: 500px;
+    }
+    .titulo{
+        margin-top: var(--spacer-xl);
+        color: var(--blau);
+        font-family: var(--serif);
+        font-size: var(--text-headline);
+        font-style: oblique;
+        height: 100%;
+        grid-column-end: -5;
+    }
 }
 @media(max-width:700){
-    .iniciotext{
+        .iniciotext{
        padding-top: var(--spacer-m);
        padding-bottom: var(--spacer-xs);
        padding-left: var(--spacer-s);
        padding-right: var(--spacer-s);
+       font-family: var(--serif);
+       font-size: var(--text-caption);
+       font-style: italic;
+       font-weight: 400;
+       color: var(--blau);
+    }
+     .titulo{
+        margin-top: var(--spacer-xl);
+        color: var(--blau);
+        font-family: var(--serif);
+        font-size: var(--text-headline);
+        font-style: oblique;
+        height: 100%;
+        grid-column-end: -5;
+    }
+}
+@media(max-width:500){
+    .iniciotext{
+       padding-top: var(--spacer-m);
+       padding-bottom: var(--spacer-xs);
+       padding-left: 0;
+       padding-right: 0;
+       font-family: var(--serif);
+       font-size: var(--text-caption);
+       font-style: italic;
+       font-weight: 400;
+       color: var(--blau);
+    }
+}
+@media(max-width:320){
+    .iniciotext{
+       padding-top: var(--spacer-m);
+       padding-bottom: var(--spacer-xs);
+       padding-left: 0;
+       padding-right: 0;
        font-family: var(--serif);
        font-size: var(--text-caption);
        font-style: italic;
