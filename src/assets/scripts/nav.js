@@ -1,7 +1,10 @@
 function cambiaClase() {
-  //this.classList.toggle("activo");
-    document.querySelector("body").classList.toggle("nav-activo");
+  this.classList.toggle("is-active");
+    document
+        .querySelector("body")
+        .classList.toggle("nav-2-activo");
 }
 
-document.querySelector(".header-nav-icon").addEventListener("click", cambiaClase);
-document.querySelector(".header-nav-icon2").addEventListener("click", cambiaClase);
+document
+    .querySelector(".hamburger")
+    .addEventListener("click", cambiaClase);
