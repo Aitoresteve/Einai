@@ -1,21 +1,21 @@
 .fotos-servicios{
-    width: 100%;
-    height: min-content;
+   
+    object-fit: cover;
 }
 .fotos-servicios-der{
-    width: 100%;
+    
+    object-fit: cover;
     grid-column-end: -1;
-    height: min-content;
 }
 .fotos-servicios-izq{
-    width: 100%;
-    height: min-content;
+ 
+    object-fit: cover;
 }
 .caja-servicio{    
     background-color: var(--blau);
     margin-bottom: var(--spacer-xl);
     margin-top: var(--spacer-2xl);
-    height: min-content;
+    object-fit: contain;
     align-content: center;
 }
 .servicio{
@@ -26,6 +26,24 @@
     font-weight: 300;
     color: var(--blanc);
     height: min-content;
+}
+.servicio-eng{
+    font-size: var(--text-titlelit);
+    font-family: var(--serif);
+    font-style: oblique;
+    line-height: 1.2;
+    font-weight: 300;
+    color: var(--blau2);
+    height: min-content;
+}
+.spacer-xl{
+    margin-top: var(--spacer-xl);
+}
+.spacer-2xl{
+    margin-top: var(--spacer-2xl);
+}
+.text-eng{
+    color: var(--blau2);
 }
 .servicios-text{
     color: var(--blanc);
