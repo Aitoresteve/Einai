@@ -1,16 +1,36 @@
 .footer {
-  background-color: var(--blau);
+  background-color: var(--kraft);
   padding-top: var(--spacer-m);
   padding-bottom: var(--spacer-m);
   font-size: var(--text-caption);
-  text-align: center;
 }
 .footer a{
     text-decoration: ;
-    color: var(--blanc);
+    color: var(--blau);
     margin-left: 20px;
 }
 .footer a:hover{
     cursor: pointer;
-    color: var(--blau2);
+    color: var(--blanc);
+}
+.marca{
+    text-align: center;
+    margin-top:var(--spacer-m);
+}
+.rrss{
+    grid-column-end: -9;
+    margin-top:var(--spacer-m);
+}
+.face{
+    text-decoration: none;
+}
+.insta{
+    text-decoration: none;
+}
+.footer-contacto{
+    grid-column-end: -2; 
+    margin-top:var(--spacer-m);
+}
+.mail{
+    text-decoration: none;
 }
